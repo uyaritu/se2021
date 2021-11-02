@@ -11,6 +11,7 @@ repository="https://github.com/uyaritu/se2021"
 
 [tool.poetry.dependencies]
 python = "^3.7"
+Flask = "^2.0.2"
 
 [tool.poetry.dev-dependencies]
 
