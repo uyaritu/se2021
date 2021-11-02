@@ -33,6 +33,11 @@ MORSE = {
 
 
 def encode_morse(phrase):
+    """Encode a phrase in Morse code.
+
+    :param phrase: Phrase to encode.
+    :return: Encoded phrase.
+    """
     return " ".join([MORSE[symbol.lower()] for symbol in phrase])
 
 
