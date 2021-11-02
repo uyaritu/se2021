@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "se2021"
+version = "0.1.0"
+description = "Morse encoding service."
+authors = ["H. Turgut Uyar <uyar@itu.edu.tr>"]
+license = "BSD-3-LICENSE"
+
+readme="README.md"
+homepage="https://github.com/uyaritu/se2021"
+repository="https://github.com/uyaritu/se2021"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
